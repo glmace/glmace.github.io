@@ -1,32 +1,14 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>欢迎光临</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="main">
-    请键入下载路径<br>
-    <input type="text" v-model="filepath" id='text1'><input type="button" @click="downl" value="下载"><br>
-    <div class="main">
-    请键入视频链接<br>
-    <input type="text" v-model="filepath2" id='text1'><input type="button" @click="downl2" value="下载"><br>
-    <span>硬盘端口为<a href="http://smphd.higlm.com" target="_blank">smphd.higlm.com</a></span><br>
-    <span>硬盘端口为<a href="http://10.4.193.178:9999" target="_blank">内网入口</a></span><br>
-    <div>当前状态:{{status}}</div>
-    </div>
-    <br>
-    <a href="pyweb.html">python运行环境</a> <br>
-    <span>备注端口：</span><br>
-    <span>ssh端口为higlm.com:1022</span><br>
-    <span>vnc端口为higlm.com:1023</span><br>
+    <script language="javascript">
+        location.replace("http://sz.higlm.com:18401/");
+    </script>    
 </body>
 </html>
-<script src="./js/axios.min.js"></script>
-<script src="./js/vue.js"></script>
-<script src="./js/qs.js"></script>
-<script src="./js/main.js"></script>
